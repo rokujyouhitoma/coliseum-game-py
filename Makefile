@@ -42,7 +42,7 @@ build: ## run python code
 
 .PHONY: run
 run: ## run python code
-	${RUN_PYTHON} ${SRC}/${PACKAGE}/parser.py
+	${RUN_PYTHON} ${SRC}/${PACKAGE}/__main__.py
 
 .PHONY: isort
 isort: ## isort
