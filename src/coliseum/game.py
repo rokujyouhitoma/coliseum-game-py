@@ -1,3 +1,7 @@
 class Game:
-    def play(self):
-        pass
+    pass
+
+
+class Combat:
+    pass
+
