@@ -1,3 +1,6 @@
+import typing
+
+
 class Game:
     pass
 
@@ -10,13 +13,21 @@ class CombatRule:
     pass
 
 
-class CombatTurn:
+class Fighter:
+    pass
+
+
+class ActionRequest:
+    pass
+
+
+class ActionResult:
+    pass
+
+
+class CombatTurnRequest:
     pass
 
 
 class CombatTurnResult:
-    pass
-
-
-class Fighter:
-    pass
+    action_results: typing.List[ActionResult]
