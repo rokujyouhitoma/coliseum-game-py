@@ -5,12 +5,16 @@ class Game:
     pass
 
 
-class Combat:
+class ConbatScheduler:
     pass
 
 
 class CombatRule:
     pass
+
+
+class Combat:
+    rule: CombatRule
 
 
 class Fighter:
