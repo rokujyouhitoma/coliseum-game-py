@@ -17,16 +17,20 @@ class Combat:
     rule: CombatRule
 
 
-class Fighter:
+class Actor:
+    pass
+
+
+class Fighter(Actor):
     pass
 
 
 class ActionRequest:
-    pass
+    actor: typing.Actor
 
 
 class ActionResult:
-    pass
+    request: ActionRequest
 
 
 class CombatTurnRequest:
