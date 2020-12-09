@@ -15,6 +15,7 @@ class CombatRule:
 
 class Combat:
     rule: CombatRule
+    scheduler: ConbatScheduler
 
 
 class Actor:
@@ -26,7 +27,7 @@ class Fighter(Actor):
 
 
 class ActionRequest:
-    actor: typing.Actor
+    actor: Actor
 
 
 class ActionResult:
