@@ -35,7 +35,7 @@ class ActionResult:
 
 
 class CombatTurnRequest:
-    pass
+    actors: typing.List[Actor]
 
 
 class CombatTurnResult:
