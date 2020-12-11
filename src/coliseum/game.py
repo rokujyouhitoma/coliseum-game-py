@@ -5,24 +5,11 @@ class Game:
     pass
 
 
-class ConbatScheduler:
-    pass
-
-
-class CombatRule:
-    pass
-
-
 class Combat:
-    rule: CombatRule
-    scheduler: ConbatScheduler
+    pass
 
 
 class Actor:
-    pass
-
-
-class Fighter(Actor):
     pass
 
 
